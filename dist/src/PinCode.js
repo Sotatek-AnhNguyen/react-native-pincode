@@ -527,16 +527,16 @@ let styles = react_native_1.StyleSheet.create({
         height: grid_1.grid.unit * 5.5
     },
     colButtonCircle: {
-        marginLeft: grid_1.grid.unit /1.5,
-        marginRight: grid_1.grid.unit /1.5,
+        marginLeft: grid_1.grid.unit *0.3,
+        marginRight: grid_1.grid.unit *0.3,
         alignItems: "center",
         width: grid_1.grid.unit * 4,
         height: grid_1.grid.unit * 4,
         //backgroundColor: 'red',
     },
     colEmpty: {
-        marginLeft: grid_1.grid.unit /1.5,
-        marginRight: grid_1.grid.unit /1.5,
+        marginLeft: grid_1.grid.unit *0.3,
+        marginRight: grid_1.grid.unit *0.3,
         width: grid_1.grid.unit * 4,
         height: grid_1.grid.unit * 4
     },
@@ -598,14 +598,14 @@ let styles = react_native_1.StyleSheet.create({
     },
     backgroundContainer: {
         width: '100%',
-        height: grid_1.grid.unit * 12,
+        height: grid_1.grid.unit * 11,
         flexDirection: 'column',
         backgroundColor: '#fcd800',
     },
     containerKeyboard: {
         width: '100%',
-        marginTop: grid_1.grid.unit*2,
-        marginBottom: grid_1.grid.unit,
+        marginTop: grid_1.grid.unit*3,
+        marginBottom: grid_1.grid.unit*2,
         height: grid_1.grid.unit * 15,
         alignItems: 'center',
         justifyContent: 'center',
