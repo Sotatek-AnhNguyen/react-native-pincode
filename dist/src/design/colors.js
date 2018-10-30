@@ -24,6 +24,7 @@ const colors = {
     globalEquities: '#FFAA4A',
     altStrategies: '#FC4349',
     globalDebtSecurities: '#213249',
+    colorButtomPassword: '#fcd800',
 };
 exports.colors = colors;
 const documentColor = (docType) => {
