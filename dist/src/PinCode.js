@@ -158,9 +158,9 @@ class PinCode extends React.PureComponent {
                                 ? this.props.colorPasswordError
                                     ? this.props.colorPasswordError
                                     : colors_1.colors.alert
-                                : this.props.colorPassword
+                                : ( lengthSup ? (colors_1.colors.colorButtomPassword) : (this.props.colorPassword
                                     ? this.props.colorPassword
-                                    : colors_1.colors.turquoise
+                                    : colors_1.colors.turquoise))
                         ],
                         borderRadius: [
                             lengthSup
