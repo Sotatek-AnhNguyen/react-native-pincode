@@ -546,6 +546,13 @@ let styles = react_native_1.StyleSheet.create({
         width: grid_1.grid.unit * 4,
         height: grid_1.grid.unit * 4,
         elevation: 10,
+        shadowColor: '#0530b0',
+        shadowOpacity: 0.15,
+        shadowOffset: {
+          width: 0,
+          height: 3,
+        },
+        zIndex: 999,
         backgroundColor: '#fff',
         borderRadius: grid_1.grid.unit * 2
     },
@@ -566,6 +573,13 @@ let styles = react_native_1.StyleSheet.create({
         height: grid_1.grid.unit * 4,
         backgroundColor: '#fff',
         elevation: 10,
+        shadowColor: '#0530b0',
+        shadowOpacity: 0.15,
+        shadowOffset: {
+          width: 0,
+          height: 3,
+        },
+        zIndex: 999,
         borderRadius: grid_1.grid.unit * 2,
     },
     textTitle: {
